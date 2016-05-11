@@ -35,14 +35,14 @@
                                 <rect key="frame" x="130" y="175" width="60" height="30"/>
                                 <state key="normal" title="并行同步"/>
                                 <connections>
-                                    <action selector="parallelSynchronized:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VUF-GF-ba7"/>
+                                    <action selector="concurrentSynchronized:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gDO-jL-LeM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tca-Nz-Y3F">
                                 <rect key="frame" x="130" y="225" width="60" height="30"/>
                                 <state key="normal" title="并行异步"/>
                                 <connections>
-                                    <action selector="parallelAsynchronized:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eof-dh-2qK"/>
+                                    <action selector="concurrentAsynchronized:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T4y-UU-O3B"/>
                                 </connections>
                             </button>
                         </subviews>
